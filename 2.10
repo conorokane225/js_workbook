@@ -1,0 +1,51 @@
+Question 1:
+if ("0") {
+  alert( 'Hello' );
+} Hello is displayed
+
+Question 2:
+<script>
+'use strict';
+let value=prompt('what is the official name of javascript?', '');
+if value (value=='ECMAscript') {
+    alert('Right!');
+}
+else {
+    alert ("you dont know? ECMAscript!");
+}
+</script>
+
+Question 3:
+let value = prompt('Type a number', 0);
+if (value > 0) {
+  alert( 1 );
+} else if (value < 0) {
+  alert( -1 );
+} else {
+  alert( 0 );
+}
+
+Question 4:
+let result;
+if (a + b < 4) {
+  result = 'Below';
+} else {
+  result = 'Over';
+}
+Answer:let result = (a + b < 4) ? 'Below' : 'Over';
+
+Question 5:
+let message;
+if (login == 'Employee') {
+  message = 'Hello';
+} else if (login == 'Director') {
+  message = 'Greetings';
+} else if (login == '') {
+  message = 'No login';
+} else {
+  message = '';
+}
+Answer:let message = (login == 'Employee') ? 'Hello' :
+  (login == 'Director') ? 'Greetings' :
+  (login == '') ? 'No login' :
+  '';
